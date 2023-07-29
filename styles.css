@@ -1,0 +1,147 @@
+/* ... Other CSS styles ... */
+
+h1 {
+    /* ... Other styles ... */
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Add fade-in animation for the resume preview */
+  #resumePreview {
+    /* ... Other styles ... */
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Add slide-down animation for the form */
+  form {
+    /* ... Other styles ... */
+    animation: slideDown 1s ease;
+  }
+  
+  /* Keyframes for fadeIn and slideDown animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* ... Other CSS styles ... */
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* ... Other CSS styles ... */
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #resumePreview {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #resumePreview h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #resumePreview p {
+    margin: 5px 0;
+  }
+  
+  #resumePreview ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resumePreview li:before {
+    content: '• ';
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+  
